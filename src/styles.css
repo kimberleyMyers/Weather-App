@@ -1,0 +1,116 @@
+body {
+  font-family: "Lucida Calligraphy", "Apple Chancery";
+  text-align: center;
+  margin: 0 auto;
+}
+
+h5 {
+  color: midnightblue;
+  margin: 2px 0px 15px 0px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  width: 410px;
+   border: 2px solid black;
+ 
+ 
+}
+
+
+button {
+background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);  
+}
+
+.btn {
+  padding: 3px 10px;
+  margin: 10px auto;
+  font-size: 15px;
+  font-weight: bold;
+  outline: 0.1px black;
+  outline-style: solid;
+  width: 25%;
+}
+
+.btn:hover {
+  
+  background: linear-gradient(179.7deg, rgb(248, 126, 126) -0.5%, rgb(251, 206, 143) 35.3%, rgb(184, 252, 233) 67.2%, rgb(118, 162, 229) 92.3%);
+  color: black;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+
+p {
+  color: rgba(0, 3, 8, 0.87);
+    text-align: justify;
+  position: relative;
+  margin: 5px 70px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+input {
+  margin: 0 auto;
+  color: black; 
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+input.form {
+  margin: 0 auto;
+  outline: 0.1px black;
+  outline-style: solid;
+}
+
+.stats{
+   
+  margin: 5px auto;
+  text-align: justify;
+  float: right;
+
+}
+
+.weather-app {
+  border: solid #12015e;
+ background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); 
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 55%;
+  border-radius: 8px;
+  
+}
+
+.dates {
+  text-align: right;
+  position: relative;
+  margin: 5px 60px;
+}
+
+.city {
+ color: rgba(0, 3, 8, 0.87);
+  text-align: justify;
+  position: relative;
+  margin: 5px 70px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#celsius-link {
+   color: black;
+}
+
+#fahrenheit-link {
+  color: black;
+}
+
+
+.row {
+  color: black;
+  margin: 20px 0px 30px 0px;
+  font-weight: bold;
+}
+
+
