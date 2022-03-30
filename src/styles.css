@@ -1,20 +1,11 @@
 body {
-  background-image: url("images/BeachCA.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+   
   font-family: "Lucida Calligraphy", "Apple Chancery";
   text-align: center;
   margin: 0 auto;
 }
 
-img {
-  margin: 0 auto;
-  display: block;
-  border-radius: 5px;
-  width: 410px;
-  border: 2px solid black;
-}
+
 
 button {
   background: radial-gradient(
@@ -58,6 +49,11 @@ p {
 
 ul {
   list-style-type: none;
+  
+}
+
+li {
+   font-weight: bold;
 }
 
 input {
@@ -73,20 +69,20 @@ input.form {
 }
 
 #stats {
-  margin: 5px auto;
+  margin: 5px 95px;
   text-align: justify;
-  float: right;
+ float: right;
 }
 
 .container {
  
   position: relative;
-  border: solid #12015e;
-  background: linear-gradient(100deg, #e0c3fc 0%, #8ec5fc 100%);
-  padding: 10px;
+  border: solid #0000005d;
+  background: rgba(255, 255, 255, 0.486);
+  padding: 35px;
   margin: 0 auto;
   margin-top: 20px;
-  max-width: 55%;
+  max-width: 60%;
   border-radius: 8px;
 }
 
@@ -117,4 +113,5 @@ input.form {
   color: black;
   margin: 20px 0px 30px 0px;
   font-weight: bold;
+  white-space: nowrap;
 }
