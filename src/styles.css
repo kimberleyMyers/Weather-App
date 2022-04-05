@@ -1,11 +1,7 @@
 body {
-   
   font-family: "Lucida Calligraphy", "Apple Chancery";
   text-align: center;
-  margin: 0 auto;
 }
-
-
 
 button {
   background: radial-gradient(
@@ -15,7 +11,7 @@ button {
   );
 }
 
-.btn {
+#currentloc {
   padding: 3px 10px;
   margin: 10px auto;
   font-size: 15px;
@@ -25,7 +21,7 @@ button {
   width: 25%;
 }
 
-.btn:hover {
+#currentloc:hover {
   background: linear-gradient(
     179.7deg,
     rgb(248, 126, 126) -0.5%,
@@ -38,80 +34,95 @@ button {
   transition: all 200ms ease-in-out;
 }
 
-p {
+h4 {
   color: rgba(0, 3, 8, 0.87);
-  text-align: justify;
-  position: relative;
-  margin: 5px 70px;
-  display: inline-block;
-  font-weight: bold;
+  font-size: 20px;
+  float: left;
 }
 
 ul {
   list-style-type: none;
-  
 }
 
 li {
-   font-weight: bold;
+  padding: 0;
+  color: rgba(0, 3, 8, 0.87);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+p {
+  text-align: left;
+
+  position: relative;
+  margin: -25px auto;
+  margin-bottom: 80px;
+  margin-right: 40px;
 }
 
 input {
-  margin: 0 auto;
+  margin: 5px auto;
   color: black;
   background: white;
 }
 
-input.form {
-  margin: 0 auto;
+#btnsubmit {
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  padding: 3px 5px;
+
   outline: 0.1px black;
   outline-style: solid;
 }
 
-#stats {
-  margin: 5px 95px;
-  text-align: justify;
- float: right;
+#btnsubmit:hover {
+  background: linear-gradient(
+    179.7deg,
+    rgb(248, 126, 126) -0.5%,
+    rgb(251, 206, 143) 35.3%,
+    rgb(184, 252, 233) 67.2%,
+    rgb(118, 162, 229) 92.3%
+  );
+  color: black;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .container {
- 
-  position: relative;
   border: solid #0000005d;
   background: rgba(255, 255, 255, 0.486);
-  padding: 35px;
+  padding: 5px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
   max-width: 60%;
   border-radius: 8px;
 }
 
-.dates {
-  text-align: right;
-  position: relative;
-  margin: 5px 60px;
+.overview {
+  float: left;
+  margin: -30px 10px;
+  text-align: center;
 }
 
-.city {
-  color: rgba(0, 3, 8, 0.87);
-  text-align: justify;
-  position: relative;
-  margin: 5px 70px;
+#currenttemp {
   display: inline-block;
-  font-weight: bold;
+  font-size: 20px;
 }
 
-#celsius-link {
-  color: black;
+.weather-temperature {
+  margin: -30px auto;
 }
 
-#fahrenheit-link {
-  color: black;
+#description {
+  margin-left: -30px;
+  font-size: 12px;
 }
 
-.row {
-  color: black;
-  margin: 20px 0px 30px 0px;
-  font-weight: bold;
-  white-space: nowrap;
+#date {
+  margin-left: -30px;
+  font-size: 12px;
 }
